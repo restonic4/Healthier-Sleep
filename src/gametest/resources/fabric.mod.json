@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "healthier_sleep_test",
+  "version": "1.0.0",
+  "name": "Healthier Sleep game tests",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": ["com.restonic4.healthiersleep.gametest.SleepGameTests"]
+  },
+  "depends": {
+    "healthier_sleep": "*"
+  }
+}

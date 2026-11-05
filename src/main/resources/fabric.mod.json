@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "healthier_sleep",
+  "version": "${version}",
+  "name": "Healthier Sleep",
+  "description": "Natural regeneration only happens while you sleep.",
+  "authors": ["restonic4"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.restonic4.healthiersleep.HealthierSleep"]
+  },
+  "mixins": ["healthier_sleep.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "inconvenient_temperature": "*",
+    "dehydration": "*"
+  }
+}
